@@ -1,0 +1,75 @@
+body{
+    background: url(../img/img.jpg) no-repeat;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.display-3{
+    color: #fff;
+}
+
+.card {
+    padding: 5px;
+    width: 1000px;
+    height: auto;
+}
+
+h5 {
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+#submit{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#submit:hover{
+    background-color:rgb(255, 196, 0);
+    border-radius: 30px;
+    transition: 0.6s;
+}
+#dropdownMenuButton1, .jobbtn{
+    width: 200px;
+    border-radius: 0;
+    margin: 0;
+}
+#calculator{
+    margin: 10px;
+    justify-content: center;
+    padding: 5px;
+    width: 600px;
+    height: auto;
+}
+.calc-head #result{
+    width: 335px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+}
+.btn{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: grey;
+    color: white;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(157, 155, 155);
+}
+.btn-style{
+    background-color: rgb(41, 47, 54);
+}
+.btn-style:hover{
+    background-color: rgb(77, 81, 86);
+}
