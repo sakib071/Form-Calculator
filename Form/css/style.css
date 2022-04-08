@@ -47,8 +47,10 @@ h5 {
     height: auto;
 }
 .calc-head #result{
-    width: 335px;
-    height: 100px;
+    width: 360px;
+    height: 70px;
+    border: 4px solid grey;
+    border-bottom: 0px;
     font-size: 32px;
     font-weight: bold;
     text-align: right;
